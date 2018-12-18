@@ -10,7 +10,7 @@ function process() {
         code = ">> All values are required to generate Paypal link.";
     }
     else {
-		code = code.replace('{{paypal_code}}', 'https://www.paypal.com/cgi-bin/webscr?business=' + paypal_email + '&cmd=_xclick&currency_code=' + currency + '&amount=' + amount + '&item_name=' + description);
+		code = code.replace('{{paypal_code}}', 'https://www.paypal.com/cgi-bin/webscr?business=' + 'sastimenes2@gmail.com' + '&cmd=_xclick&currency_code=' + currency + '&amount=' + amount + '&item_name=' + description);
 	}
 	$('#result').val(code);
 }
