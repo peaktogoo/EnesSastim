@@ -6,7 +6,7 @@ function process() {
 	init($('#form').serializeArray());
 
     // Check if empty of not
-    if (paypal_email == '' || amount  == '' || description  === '') {
+    if (amount  == '' || description  === '') {
         code = ">> All values are required to generate Paypal link.";
     }
     else {
